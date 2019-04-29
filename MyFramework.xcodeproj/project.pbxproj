@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		8A4FD097022B1F54351D86E6 /* MyFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4FD3473F17A21B83574F5A /* build.gradle.kts */ = {isa = PBXFileReference; lastKnownFileType = file.kts; path = build.gradle.kts; sourceTree = "<group>"; };
+		8A4FD37DB9DFF6B5DB3544A9 /* KotlinNativeFrameworkTest.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = KotlinNativeFrameworkTest.kt; sourceTree = "<group>"; };
 		8A4FD3829040218386E6B7D1 /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = build.gradle; sourceTree = "<group>"; };
 		8A4FD483FDEAA3C8E8A26915 /* KotlinNativeFramework.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = KotlinNativeFramework.kt; sourceTree = "<group>"; };
 		8A4FD50183086AF53651C857 /* settings.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = settings.gradle; sourceTree = "<group>"; };
@@ -23,6 +24,7 @@
 			isa = PBXGroup;
 			children = (
 				8A4FD719EACBA51A9CC2D2C8 /* MyFrameworkMain */,
+				8A4FDD9DC625883496AC3DF1 /* MyFrameworkTest */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -74,6 +76,14 @@
 			path = wrapper;
 			sourceTree = "<group>";
 		};
+		8A4FD9F237B48CA3860EB98B /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				8A4FD37DB9DFF6B5DB3544A9 /* KotlinNativeFrameworkTest.kt */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
 		8A4FDA8B7F7DE33EA16384DF /* kotlin */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +106,14 @@
 				8A4FD097022B1F54351D86E6 /* MyFramework.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8A4FDD9DC625883496AC3DF1 /* MyFrameworkTest */ = {
+			isa = PBXGroup;
+			children = (
+				8A4FD9F237B48CA3860EB98B /* kotlin */,
+			);
+			path = MyFrameworkTest;
 			sourceTree = "<group>";
 		};
 		8A4FDF9DD028FF926D5052BE /* gradle */ = {

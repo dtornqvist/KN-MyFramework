@@ -5,5 +5,5 @@
 //
 
 class KotlinNativeFramework {
-    fun helloFromKotlin() = "Hello from Kotlin!"
+    fun addDoubles(a: Double, b: Double) = a + b
 }
