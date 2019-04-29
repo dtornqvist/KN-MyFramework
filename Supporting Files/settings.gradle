@@ -1,0 +1,3 @@
+include(":MyFramework")
+project(":MyFramework").projectDir = file("../MyFramework")
+rootProject.name = file("..").name
